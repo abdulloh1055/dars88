@@ -8,13 +8,19 @@ if (amal === "+") {
 }
 
 if (amal === "-") {
-    let ayirma = son1+ son2;
+    let ayirma = son1 - son2;
+    alert(son1 + " - " + son2 + " = " + ayirma)
+}
+
+
+if (amal === "+") {
+    let bolima = son1 / son2;
+    alert(son1 + " / " + son2 + " = " + bolima)
 }
 
 if (amal === "+") {
     let kopaytiruv = son1 * son2;
+    alert(son1 + " * " + son2 + " = " + kopaytiruv)
 }
 
-if (amal === "+") {
-    let bolima = son1 / son2;
-}
+
